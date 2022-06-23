@@ -1,0 +1,55 @@
+{
+  "address": "0xf75993f165aE953a1A5cF8eB3Cde89C46a5c52Ca",
+  "chaindId": 1337,
+  "functionSelectors": {
+    "facetAddress(bytes4)": "Readable",
+    "facetAddresses()": "Readable",
+    "facetFunctionSelectors(address)": "Readable",
+    "facets()": "Readable",
+    "acceptOwnership()": "Ownership",
+    "nomineeOwner()": "Ownership",
+    "owner()": "Ownership",
+    "transferOwnership(address)": "Ownership",
+    "supportsInterface(bytes4)": "Erc165",
+    "cutAndCommit(string,(address,uint8,bytes4[])[],address,bytes)": "Writable",
+    "diamondCut((address,uint8,bytes4[])[],address,bytes)": "Writable",
+    "update(address,string)": "Writable",
+    "getFallbackAddress()": "OnTap",
+    "setFallbackAddress(address)": "OnTap",
+    "commit(string,(address,uint8,bytes4[])[],address,bytes)": "Git",
+    "latest(address,string)": "Git",
+    "model()": "Git"
+  },
+  "contracts": {
+    "Readable": {
+      "name": "Readable",
+      "address": "0x32e02F2934824ec085298E2B4e0e07935Ec6DaeC",
+      "type": "remote"
+    },
+    "Ownership": {
+      "name": "Ownership",
+      "address": "0xfeaD3d6e2fA0f92551375fa985006ffc6ac07E18",
+      "type": "remote"
+    },
+    "Erc165": {
+      "name": "Erc165",
+      "address": "0x6082Ac385d4c63be87d5146b3c43E5E826A7341C",
+      "type": "remote"
+    },
+    "Writable": {
+      "name": "Writable",
+      "address": "0x8B2Eb2402A3Aa9c3E9fE54A61e3E3fA254F4eD66",
+      "type": "remote"
+    },
+    "OnTap": {
+      "name": "OnTap",
+      "address": "0x71E02441209d3dd9Ed064A4E4EafAf90D0263088",
+      "type": "remote"
+    },
+    "Git": {
+      "name": "Git",
+      "address": "0xCC4D016aB77E28653bdce1098077bE5923077980",
+      "type": "remote"
+    }
+  }
+}

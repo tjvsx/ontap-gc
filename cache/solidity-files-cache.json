@@ -1,0 +1,3961 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/decentralizedtech/Multicall2.sol": {
+      "lastModificationDate": 1655270821493,
+      "contentHash": "5f4a28895f058ff0696e9709a13bc68b",
+      "sourceName": "contracts/_library/decentralizedtech/Multicall2.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Multicall2"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/CounterLens.sol": {
+      "lastModificationDate": 1655270821482,
+      "contentHash": "f883eb85971052dbae5a106290619deb",
+      "sourceName": "contracts/_library/habitat/CounterLens.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CounterLens"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/external/HabitatRepository.sol": {
+      "lastModificationDate": 1655270821482,
+      "contentHash": "70ae5635fe753919510322c4f9fd9235",
+      "sourceName": "contracts/_library/habitat/external/HabitatRepository.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IRepository.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "HabitatRepository"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/interfaces/IRepository.sol": {
+      "lastModificationDate": 1655270821483,
+      "contentHash": "b0ada881d8807e8b84e714d1f8633e34",
+      "sourceName": "contracts/_library/habitat/interfaces/IRepository.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IRepository"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/storage/FacetRepository.sol": {
+      "lastModificationDate": 1655270821481,
+      "contentHash": "0bd7e1060be8ec2a4dfc194557ff2473",
+      "sourceName": "contracts/_library/habitat/storage/FacetRepository.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IRepository.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "FacetRepository"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/facets/DiamondCutFacet.sol": {
+      "lastModificationDate": 1655270821473,
+      "contentHash": "c83a1e892b79cd0cf345d33862fec1a9",
+      "sourceName": "contracts/_library/habitat/facets/DiamondCutFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IDiamondCut.sol",
+        "../libraries/LibDiamond.sol",
+        "../storage/FacetRepository.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DiamondCutFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/interfaces/IDiamondCut.sol": {
+      "lastModificationDate": 1655270821484,
+      "contentHash": "707e073af69d132ebdc36f0b766ed4d2",
+      "sourceName": "contracts/_library/habitat/interfaces/IDiamondCut.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IDiamondCut"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/libraries/LibDiamond.sol": {
+      "lastModificationDate": 1655527728620,
+      "contentHash": "9e50cb7737916d8fa479fe02450b9e1e",
+      "sourceName": "contracts/_library/habitat/libraries/LibDiamond.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IDiamondCut.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LibDiamond"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/upgradeInitializers/DiamondInit.sol": {
+      "lastModificationDate": 1655270821477,
+      "contentHash": "f10c4be384a3557711b2076f1330a2e6",
+      "sourceName": "contracts/_library/habitat/upgradeInitializers/DiamondInit.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/LibDiamond.sol",
+        "../interfaces/IDiamondLoupe.sol",
+        "../interfaces/IDiamondCut.sol",
+        "../interfaces/IERC173.sol",
+        "../interfaces/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DiamondInit"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/interfaces/IDiamondLoupe.sol": {
+      "lastModificationDate": 1655270821484,
+      "contentHash": "a471cd6a18e337530aa0fb37a1dd2294",
+      "sourceName": "contracts/_library/habitat/interfaces/IDiamondLoupe.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IDiamondLoupe"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/interfaces/IERC173.sol": {
+      "lastModificationDate": 1655270821487,
+      "contentHash": "65e379207bc221335d0eedfe7b077af6",
+      "sourceName": "contracts/_library/habitat/interfaces/IERC173.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC173"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/interfaces/IERC165.sol": {
+      "lastModificationDate": 1655270821487,
+      "contentHash": "f8f9ee2c76e1678bfead7a3fad131934",
+      "sourceName": "contracts/_library/habitat/interfaces/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/facets/DiamondLoupeFacet.sol": {
+      "lastModificationDate": 1655270821474,
+      "contentHash": "20fbbb16498bb5d7f6b426730cca5463",
+      "sourceName": "contracts/_library/habitat/facets/DiamondLoupeFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/LibDiamond.sol",
+        "../interfaces/IDiamondLoupe.sol",
+        "../interfaces/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DiamondLoupeFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/facets/OwnershipFacet.sol": {
+      "lastModificationDate": 1655270821473,
+      "contentHash": "3ecfa87738e59d567e6c44c1708b9a7d",
+      "sourceName": "contracts/_library/habitat/facets/OwnershipFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/LibDiamond.sol",
+        "../interfaces/IERC173.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OwnershipFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/external/StakeContract.sol": {
+      "lastModificationDate": 1655270821482,
+      "contentHash": "5109ac8270812e92a7e2911b9a72404b",
+      "sourceName": "contracts/_library/habitat/external/StakeContract.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/openzeppelin/IERC20.sol",
+        "../libraries/openzeppelin/SafeERC20.sol",
+        "../interfaces/IVotingPower.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "SignersSetter",
+        "StakeContract"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/libraries/openzeppelin/IERC20.sol": {
+      "lastModificationDate": 1655270821479,
+      "contentHash": "ae3ee83cf946e39c01ae66d440d6e48f",
+      "sourceName": "contracts/_library/habitat/libraries/openzeppelin/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/libraries/openzeppelin/SafeERC20.sol": {
+      "lastModificationDate": 1655270821480,
+      "contentHash": "dcb20d7b5f9db35c6768ced3f7b3a577",
+      "sourceName": "contracts/_library/habitat/libraries/openzeppelin/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/interfaces/IVotingPower.sol": {
+      "lastModificationDate": 1655270821483,
+      "contentHash": "1ad4c1496d0a463882f3486d43b35d01",
+      "sourceName": "contracts/_library/habitat/interfaces/IVotingPower.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "IVotingPower"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/libraries/openzeppelin/Address.sol": {
+      "lastModificationDate": 1655270821480,
+      "contentHash": "f3845818a6b38f565fc84a78259540d3",
+      "sourceName": "contracts/_library/habitat/libraries/openzeppelin/Address.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/facets/VotingPowerFacet.sol": {
+      "lastModificationDate": 1655270821475,
+      "contentHash": "91c51208fc0531b5503ec916142ce4ac",
+      "sourceName": "contracts/_library/habitat/facets/VotingPowerFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IVotingPower.sol",
+        "../libraries/LibVotingPower.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "VotingPowerFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/libraries/LibVotingPower.sol": {
+      "lastModificationDate": 1655270821478,
+      "contentHash": "c59795beb992fe3eccda6c059b93893e",
+      "sourceName": "contracts/_library/habitat/libraries/LibVotingPower.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IVotingPower.sol",
+        "./LibTreasury.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "LibVotingPower"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/libraries/LibTreasury.sol": {
+      "lastModificationDate": 1655270821478,
+      "contentHash": "9613d4734d580f294b56b87c3c952119",
+      "sourceName": "contracts/_library/habitat/libraries/LibTreasury.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/treasury/ITreasury.sol",
+        "../interfaces/treasury/ITreasuryVotingPower.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "LibTreasury"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/interfaces/treasury/ITreasury.sol": {
+      "lastModificationDate": 1655270821484,
+      "contentHash": "c19d96aa69d0c832cdfadea4b0bd3755",
+      "sourceName": "contracts/_library/habitat/interfaces/treasury/ITreasury.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ITreasuryVotingPower.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "ITreasury"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/interfaces/treasury/ITreasuryVotingPower.sol": {
+      "lastModificationDate": 1655270821485,
+      "contentHash": "4daf83e9527f256b596c336ddd391530",
+      "sourceName": "contracts/_library/habitat/interfaces/treasury/ITreasuryVotingPower.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "ITreasuryVotingPower"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/libraries/treasury/LibTreasuryVoting.sol": {
+      "lastModificationDate": 1655270821479,
+      "contentHash": "6a26c85f3fe33e7ca7ffc8534c013985",
+      "sourceName": "contracts/_library/habitat/libraries/treasury/LibTreasuryVoting.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/treasury/ITreasury.sol",
+        "../LibTreasury.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "LibTreasuryVoting"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/facets/treasury/TreasuryVotingFacet.sol": {
+      "lastModificationDate": 1655270821476,
+      "contentHash": "bb64a610f0f16fb053a1c16eedb68ebe",
+      "sourceName": "contracts/_library/habitat/facets/treasury/TreasuryVotingFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/treasury/ITreasuryVoting.sol",
+        "../../interfaces/treasury/ITreasury.sol",
+        "../../interfaces/treasury/ITreasuryVotingPower.sol",
+        "../../libraries/treasury/LibTreasuryVotingPower.sol",
+        "../../libraries/LibTreasury.sol",
+        "../../libraries/LibVotingPower.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TreasuryVotingFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/interfaces/treasury/ITreasuryVoting.sol": {
+      "lastModificationDate": 1655270821485,
+      "contentHash": "0ed5cd95bc096c2d134a0054e4d7e420",
+      "sourceName": "contracts/_library/habitat/interfaces/treasury/ITreasuryVoting.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "ITreasuryVoting"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/libraries/treasury/LibTreasuryVotingPower.sol": {
+      "lastModificationDate": 1655270821479,
+      "contentHash": "0040a62aeb58ccf1717ef1e79e16b37c",
+      "sourceName": "contracts/_library/habitat/libraries/treasury/LibTreasuryVotingPower.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/treasury/ITreasuryVotingPower.sol",
+        "../LibTreasury.sol",
+        "../LibVotingPower.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "LibTreasuryVotingPower"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/facets/treasury/TreasuryVotingPowerFacet.sol": {
+      "lastModificationDate": 1655270821475,
+      "contentHash": "fb4bb530a2c7c76c55f817735358d616",
+      "sourceName": "contracts/_library/habitat/facets/treasury/TreasuryVotingPowerFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/treasury/ITreasuryVotingPower.sol",
+        "../../libraries/LibTreasury.sol",
+        "../../libraries/treasury/LibTreasuryVotingPower.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TreasuryVotingPowerFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/facets/treasury/TreasuryViewerFacet.sol": {
+      "lastModificationDate": 1655270821477,
+      "contentHash": "e5a883b5f73bc87a755b2c5aa8ec176d",
+      "sourceName": "contracts/_library/habitat/facets/treasury/TreasuryViewerFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/treasury/ITreasury.sol",
+        "../../libraries/LibTreasury.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TreasuryViewerFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/facets/treasury/TreasuryExecutionFacet.sol": {
+      "lastModificationDate": 1655270821476,
+      "contentHash": "57ee455f3f9a86d4fce80ac039948492",
+      "sourceName": "contracts/_library/habitat/facets/treasury/TreasuryExecutionFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/treasury/ITreasuryExecution.sol",
+        "../../interfaces/treasury/ITreasury.sol",
+        "../../libraries/LibTreasury.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TreasuryExecutionFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/interfaces/treasury/ITreasuryExecution.sol": {
+      "lastModificationDate": 1655270821485,
+      "contentHash": "cbadd7559d9da9f1a9810af977a58a43",
+      "sourceName": "contracts/_library/habitat/interfaces/treasury/ITreasuryExecution.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "ITreasuryExecution"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/facets/LocalFacet.sol": {
+      "lastModificationDate": 1655270821475,
+      "contentHash": "8d8e5ade24ca7fb6857f573cb012cf54",
+      "sourceName": "contracts/_library/habitat/facets/LocalFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../storage/Counter.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LocalFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/storage/Counter.sol": {
+      "lastModificationDate": 1655270821481,
+      "contentHash": "7871cb4fc3bcd3acb41f059c2d2f9f81",
+      "sourceName": "contracts/_library/habitat/storage/Counter.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Counter"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/facets/LocalFacetTest.sol": {
+      "lastModificationDate": 1655270821474,
+      "contentHash": "e04e0eaf60619da08c0c0e906de069a3",
+      "sourceName": "contracts/_library/habitat/facets/LocalFacetTest.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../storage/Counter.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LocalFacetTest"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/facets/MyToken.sol": {
+      "lastModificationDate": 1655270821474,
+      "contentHash": "75f3945c9c67e1efbe353d25784ee20a",
+      "sourceName": "contracts/_library/habitat/facets/MyToken.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/token/ERC20/SolidStateERC20.sol",
+        "@solidstate/contracts/token/ERC20/metadata/ERC20MetadataStorage.sol",
+        "../storage/MyTokenInit.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MyToken"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/token/ERC20/SolidStateERC20.sol": {
+      "lastModificationDate": 1655270841998,
+      "contentHash": "8d78696d131cc0096102de00032f05e5",
+      "sourceName": "@solidstate/contracts/token/ERC20/SolidStateERC20.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ISolidStateERC20.sol",
+        "./base/ERC20Base.sol",
+        "./extended/ERC20Extended.sol",
+        "./metadata/ERC20Metadata.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SolidStateERC20"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/token/ERC20/metadata/ERC20MetadataStorage.sol": {
+      "lastModificationDate": 1655270841999,
+      "contentHash": "6afc6a84cb9723ea97894706f3164f87",
+      "sourceName": "@solidstate/contracts/token/ERC20/metadata/ERC20MetadataStorage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20MetadataStorage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/storage/MyTokenInit.sol": {
+      "lastModificationDate": 1655270821481,
+      "contentHash": "2c92d61d4cc9b6ecded717e76bff4592",
+      "sourceName": "contracts/_library/habitat/storage/MyTokenInit.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MyTokenInit"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/token/ERC20/ISolidStateERC20.sol": {
+      "lastModificationDate": 1655270841997,
+      "contentHash": "fae19f9acc76fe5568762d95d8a3639f",
+      "sourceName": "@solidstate/contracts/token/ERC20/ISolidStateERC20.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./base/IERC20Base.sol",
+        "./extended/IERC20Extended.sol",
+        "./metadata/IERC20Metadata.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ISolidStateERC20"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/token/ERC20/base/ERC20Base.sol": {
+      "lastModificationDate": 1655270842001,
+      "contentHash": "c0f4e6c97b3ef1da701f94aea5d893b0",
+      "sourceName": "@solidstate/contracts/token/ERC20/base/ERC20Base.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol",
+        "./IERC20Base.sol",
+        "./ERC20BaseInternal.sol",
+        "./ERC20BaseStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Base"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/token/ERC20/extended/ERC20Extended.sol": {
+      "lastModificationDate": 1655270841998,
+      "contentHash": "b08b1f008e7590f2f9e9e730c29a8fad",
+      "sourceName": "@solidstate/contracts/token/ERC20/extended/ERC20Extended.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../base/ERC20Base.sol",
+        "./IERC20Extended.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Extended"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/token/ERC20/metadata/ERC20Metadata.sol": {
+      "lastModificationDate": 1655270842000,
+      "contentHash": "0eb8d5f0dcb1182d27be897b05f45b74",
+      "sourceName": "@solidstate/contracts/token/ERC20/metadata/ERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20Metadata.sol",
+        "./ERC20MetadataInternal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Metadata"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/token/ERC20/base/IERC20Base.sol": {
+      "lastModificationDate": 1655270842000,
+      "contentHash": "960b703a797e61692bee0df7d9616fb5",
+      "sourceName": "@solidstate/contracts/token/ERC20/base/IERC20Base.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Base"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/token/ERC20/extended/IERC20Extended.sol": {
+      "lastModificationDate": 1655270841998,
+      "contentHash": "47c0fb4cc5fa513b34b6842f2bb561ad",
+      "sourceName": "@solidstate/contracts/token/ERC20/extended/IERC20Extended.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20Internal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Extended"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/token/ERC20/metadata/IERC20Metadata.sol": {
+      "lastModificationDate": 1655270841999,
+      "contentHash": "1ed4750e7ecb3146c580a042d320cc50",
+      "sourceName": "@solidstate/contracts/token/ERC20/metadata/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1655270841993,
+      "contentHash": "17807f91def3e123217a05daec098fdf",
+      "sourceName": "@solidstate/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20Internal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/token/ERC20/IERC20Internal.sol": {
+      "lastModificationDate": 1655270841997,
+      "contentHash": "55edf8cf47ef271d5a73b508bf7eef0f",
+      "sourceName": "@solidstate/contracts/token/ERC20/IERC20Internal.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Internal"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/token/ERC20/base/ERC20BaseInternal.sol": {
+      "lastModificationDate": 1655270842001,
+      "contentHash": "9eb4db24d439e786767b9ec9d1af7026",
+      "sourceName": "@solidstate/contracts/token/ERC20/base/ERC20BaseInternal.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20Internal.sol",
+        "./ERC20BaseStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20BaseInternal"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/token/ERC20/base/ERC20BaseStorage.sol": {
+      "lastModificationDate": 1655270842000,
+      "contentHash": "56eaa6a2d2ffa33578c5ae626a1cc981",
+      "sourceName": "@solidstate/contracts/token/ERC20/base/ERC20BaseStorage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20BaseStorage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/token/ERC20/metadata/ERC20MetadataInternal.sol": {
+      "lastModificationDate": 1655270841999,
+      "contentHash": "ab1ea617dbd989f73f5684bda838a268",
+      "sourceName": "@solidstate/contracts/token/ERC20/metadata/ERC20MetadataInternal.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20MetadataStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20MetadataInternal"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/ontap/governance/init/TokenInit.sol": {
+      "lastModificationDate": 1655270821489,
+      "contentHash": "334465262be00c904a0f2f874b4a364c",
+      "sourceName": "contracts/_library/ontap/governance/init/TokenInit.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/token/ERC20/base/ERC20BaseInternal.sol",
+        "@solidstate/contracts/token/ERC20/metadata/ERC20MetadataStorage.sol",
+        "@solidstate/contracts/token/ERC20/base/ERC20BaseStorage.sol",
+        "@solidstate/contracts/factory/MinimalProxyFactory.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TokenInit"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/factory/MinimalProxyFactory.sol": {
+      "lastModificationDate": 1655270842040,
+      "contentHash": "8db4ae3008dae64d8cb77df1d49c5e1a",
+      "sourceName": "@solidstate/contracts/factory/MinimalProxyFactory.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Factory.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MinimalProxyFactory"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/factory/Factory.sol": {
+      "lastModificationDate": 1655270842039,
+      "contentHash": "b4d087eea2ada97d066d6d85a824aa0e",
+      "sourceName": "@solidstate/contracts/factory/Factory.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Factory"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/logic/Git.sol": {
+      "lastModificationDate": 1655355299210,
+      "contentHash": "f2b120ec6069c4c05977db1347111513",
+      "sourceName": "contracts/logic/Git.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol",
+        "@solidstate/contracts/factory/MinimalProxyFactory.sol",
+        "./IGit.sol",
+        "../storage/Storage.sol",
+        "../external/Upgrade.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Git"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol": {
+      "lastModificationDate": 1655270842019,
+      "contentHash": "819799ff698fbc7a23d8a70b4ba3c040",
+      "sourceName": "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IDiamondWritable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/logic/IGit.sol": {
+      "lastModificationDate": 1655270821471,
+      "contentHash": "23991a7dbc8956424f5af8a3e258a81b",
+      "sourceName": "contracts/logic/IGit.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IGit"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/storage/Storage.sol": {
+      "lastModificationDate": 1655270821472,
+      "contentHash": "1f029560295ba6eb4c56642ac0680efb",
+      "sourceName": "contracts/storage/Storage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "Storage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/external/Upgrade.sol": {
+      "lastModificationDate": 1655528306451,
+      "contentHash": "9e9b325294c5accd84fe3f08f7581516",
+      "sourceName": "contracts/external/Upgrade.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol",
+        "@solidstate/contracts/proxy/diamond/base/DiamondBaseStorage.sol",
+        "@solidstate/contracts/access/ownable/Ownable.sol",
+        "./IUpgrade.sol",
+        "../storage/Storage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Upgrade"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/proxy/diamond/base/DiamondBaseStorage.sol": {
+      "lastModificationDate": 1655270842020,
+      "contentHash": "d74176c4eebea4719e43f00f5b3b5b7f",
+      "sourceName": "@solidstate/contracts/proxy/diamond/base/DiamondBaseStorage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../utils/AddressUtils.sol",
+        "../writable/IDiamondWritable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DiamondBaseStorage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/access/ownable/Ownable.sol": {
+      "lastModificationDate": 1655270842025,
+      "contentHash": "41138dea8f4690c1de39e87ad1490c90",
+      "sourceName": "@solidstate/contracts/access/ownable/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC173.sol",
+        "./IOwnable.sol",
+        "./OwnableInternal.sol",
+        "./OwnableStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/external/IUpgrade.sol": {
+      "lastModificationDate": 1655270821493,
+      "contentHash": "81e36aa8b7182e6b7677648bce5c45d1",
+      "sourceName": "contracts/external/IUpgrade.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IUpgrade"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/utils/AddressUtils.sol": {
+      "lastModificationDate": 1655270842037,
+      "contentHash": "012052926d8dd8003145af65cb55d5a8",
+      "sourceName": "@solidstate/contracts/utils/AddressUtils.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UintUtils.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AddressUtils"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/utils/UintUtils.sol": {
+      "lastModificationDate": 1655270842037,
+      "contentHash": "ec78c5df663acd746494d437321055b2",
+      "sourceName": "@solidstate/contracts/utils/UintUtils.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UintUtils"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/access/IERC173.sol": {
+      "lastModificationDate": 1655270842028,
+      "contentHash": "c756cacd09f6b651988f3e1506234e76",
+      "sourceName": "@solidstate/contracts/access/IERC173.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC173Internal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC173"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/access/ownable/IOwnable.sol": {
+      "lastModificationDate": 1655270842025,
+      "contentHash": "2a7998d55c3fe853e54c113b0ecda6a6",
+      "sourceName": "@solidstate/contracts/access/ownable/IOwnable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC173.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IOwnable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/access/ownable/OwnableInternal.sol": {
+      "lastModificationDate": 1655270842026,
+      "contentHash": "ac00e4bc6cd335659a8d7f7d5ad145ac",
+      "sourceName": "@solidstate/contracts/access/ownable/OwnableInternal.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IOwnableInternal.sol",
+        "./OwnableStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OwnableInternal"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/access/ownable/OwnableStorage.sol": {
+      "lastModificationDate": 1655270842027,
+      "contentHash": "8d4030cf1f72456002a25402227eca29",
+      "sourceName": "@solidstate/contracts/access/ownable/OwnableStorage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OwnableStorage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/access/IERC173Internal.sol": {
+      "lastModificationDate": 1655270842027,
+      "contentHash": "535aa42172a038a4900a3f1cd4e8cbfa",
+      "sourceName": "@solidstate/contracts/access/IERC173Internal.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC173Internal"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/access/ownable/IOwnableInternal.sol": {
+      "lastModificationDate": 1655270842026,
+      "contentHash": "10e9d02c0d76693fb5a209f4cf9f4f94",
+      "sourceName": "@solidstate/contracts/access/ownable/IOwnableInternal.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC173Internal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IOwnableInternal"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/OnTap.sol": {
+      "lastModificationDate": 1655528998694,
+      "contentHash": "0522e3848a699f2680801a7df3179442",
+      "sourceName": "contracts/OnTap.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/base/DiamondBase.sol",
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol",
+        "@solidstate/contracts/access/ownable/OwnableInternal.sol",
+        "contracts/logic/Writable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OnTap"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/proxy/diamond/base/DiamondBase.sol": {
+      "lastModificationDate": 1655270842020,
+      "contentHash": "120994cf32e42ea8d3f2d2755ce29b8e",
+      "sourceName": "@solidstate/contracts/proxy/diamond/base/DiamondBase.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../Proxy.sol",
+        "./IDiamondBase.sol",
+        "./DiamondBaseStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DiamondBase"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/logic/Writable.sol": {
+      "lastModificationDate": 1655528896666,
+      "contentHash": "e9b7db18206f8122b614096a93d3af62",
+      "sourceName": "contracts/logic/Writable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/writable/DiamondWritable.sol",
+        "./libraries/Library.sol",
+        "./IWritable.sol",
+        "./IGit.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Writable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/proxy/Proxy.sol": {
+      "lastModificationDate": 1655270842022,
+      "contentHash": "c0e2c885858812b003aa3f510759e980",
+      "sourceName": "@solidstate/contracts/proxy/Proxy.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/AddressUtils.sol",
+        "./IProxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Proxy"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/proxy/diamond/base/IDiamondBase.sol": {
+      "lastModificationDate": 1655270842021,
+      "contentHash": "819034e105755f02d94ea034877cb79f",
+      "sourceName": "@solidstate/contracts/proxy/diamond/base/IDiamondBase.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../IProxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IDiamondBase"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/proxy/IProxy.sol": {
+      "lastModificationDate": 1655270842023,
+      "contentHash": "05fd2d62d550433bf0376d0864f9af23",
+      "sourceName": "@solidstate/contracts/proxy/IProxy.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IProxy"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/proxy/diamond/writable/DiamondWritable.sol": {
+      "lastModificationDate": 1655964644257,
+      "contentHash": "223175bcbff5ad4d018eefda11d60263",
+      "sourceName": "@solidstate/contracts/proxy/diamond/writable/DiamondWritable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../access/ownable/OwnableInternal.sol",
+        "../base/DiamondBaseStorage.sol",
+        "./IDiamondWritable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DiamondWritable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/logic/libraries/Library.sol": {
+      "lastModificationDate": 1655270821470,
+      "contentHash": "a1be7767555d38ddfa529387898b3b49",
+      "sourceName": "contracts/logic/libraries/Library.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol",
+        "@solidstate/contracts/proxy/diamond/base/DiamondBaseStorage.sol",
+        "contracts/_library/ontap/governance/storage/GovernanceStorage.sol",
+        "../../external/IUpgrade.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Library"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/logic/IWritable.sol": {
+      "lastModificationDate": 1655528891452,
+      "contentHash": "263ffd1429596da52fb1b1b7a499e71b",
+      "sourceName": "contracts/logic/IWritable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IWritable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/ontap/governance/storage/GovernanceStorage.sol": {
+      "lastModificationDate": 1655270821491,
+      "contentHash": "25877a19f448f90344eff7610ac93c10",
+      "sourceName": "contracts/_library/ontap/governance/storage/GovernanceStorage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "GovernanceStorage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/init/OnTapInit.sol": {
+      "lastModificationDate": 1655270821468,
+      "contentHash": "8aa908106e88872ba89572ee1b9a1675",
+      "sourceName": "contracts/init/OnTapInit.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../logic/IGit.sol",
+        "../logic/IWritable.sol",
+        "@solidstate/contracts/introspection/ERC165.sol",
+        "@solidstate/contracts/proxy/diamond/readable/IDiamondReadable.sol",
+        "@solidstate/contracts/access/ownable/ISafeOwnable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OnTapInit"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/introspection/ERC165.sol": {
+      "lastModificationDate": 1655270842038,
+      "contentHash": "44cef6134c467f198914c6317a250a27",
+      "sourceName": "@solidstate/contracts/introspection/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol",
+        "./ERC165Storage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/proxy/diamond/readable/IDiamondReadable.sol": {
+      "lastModificationDate": 1655270842019,
+      "contentHash": "154e88f27c765a0f38c3facc95f34171",
+      "sourceName": "@solidstate/contracts/proxy/diamond/readable/IDiamondReadable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IDiamondReadable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/access/ownable/ISafeOwnable.sol": {
+      "lastModificationDate": 1655270842027,
+      "contentHash": "002bfae8424baec5f66abfa430b74a79",
+      "sourceName": "@solidstate/contracts/access/ownable/ISafeOwnable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IOwnable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ISafeOwnable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/introspection/IERC165.sol": {
+      "lastModificationDate": 1655270842038,
+      "contentHash": "028807e00ea83c0330761ca80ed6fa41",
+      "sourceName": "@solidstate/contracts/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/introspection/ERC165Storage.sol": {
+      "lastModificationDate": 1655270842038,
+      "contentHash": "97fcb867addbcab036e8dad118becc82",
+      "sourceName": "@solidstate/contracts/introspection/ERC165Storage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165Storage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/access/ownable/ISafeOwnableInternal.sol": {
+      "lastModificationDate": 1655270842026,
+      "contentHash": "9f469daf1b811d3962f75816d87d4bbf",
+      "sourceName": "@solidstate/contracts/access/ownable/ISafeOwnableInternal.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IOwnableInternal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ISafeOwnableInternal"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/access/ownable/SafeOwnableInternal.sol": {
+      "lastModificationDate": 1655270842025,
+      "contentHash": "c08d90ae1de358ac669724c4ddbd8b2b",
+      "sourceName": "@solidstate/contracts/access/ownable/SafeOwnableInternal.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ISafeOwnableInternal.sol",
+        "./OwnableInternal.sol",
+        "./OwnableStorage.sol",
+        "./SafeOwnableStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeOwnableInternal"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/access/ownable/SafeOwnableStorage.sol": {
+      "lastModificationDate": 1655270842027,
+      "contentHash": "221316dcb76e0068c2e55875a708b400",
+      "sourceName": "@solidstate/contracts/access/ownable/SafeOwnableStorage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeOwnableStorage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/proxy/diamond/readable/DiamondReadable.sol": {
+      "lastModificationDate": 1655270842020,
+      "contentHash": "63515fd1804e05d853fa0a91a3067d04",
+      "sourceName": "@solidstate/contracts/proxy/diamond/readable/DiamondReadable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../base/DiamondBaseStorage.sol",
+        "./IDiamondReadable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DiamondReadable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/solidstate/Readable.sol": {
+      "lastModificationDate": 1655270821492,
+      "contentHash": "ea8d2d7c1c29c7b4fe5678068885964f",
+      "sourceName": "contracts/_library/solidstate/Readable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/readable/DiamondReadable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Readable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/ontap/governance/logic/Governance.sol": {
+      "lastModificationDate": 1655270821490,
+      "contentHash": "20a0c5c80c1d78964a396d6a6f4d5dd1",
+      "sourceName": "contracts/_library/ontap/governance/logic/Governance.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "contracts/logic/libraries/Library.sol",
+        "@solidstate/contracts/token/ERC20/base/ERC20BaseStorage.sol",
+        "@solidstate/contracts/utils/AddressUtils.sol",
+        "../storage/GovernanceStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Governance"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/ontap/diamond/Diamond.sol": {
+      "lastModificationDate": 1655346839919,
+      "contentHash": "f10acf062e03d60c9fd501a377d5d357",
+      "sourceName": "contracts/_library/ontap/diamond/Diamond.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/base/DiamondBase.sol",
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol",
+        "@solidstate/contracts/access/ownable/OwnableStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Diamond"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/ontap/governance/init/GovernanceTokenInit.sol": {
+      "lastModificationDate": 1655270821490,
+      "contentHash": "38256f732a5b8b387f0e76eee21a63e9",
+      "sourceName": "contracts/_library/ontap/governance/init/GovernanceTokenInit.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/token/ERC20/base/ERC20BaseInternal.sol",
+        "@solidstate/contracts/token/ERC20/metadata/ERC20MetadataStorage.sol",
+        "@solidstate/contracts/token/ERC20/base/ERC20BaseStorage.sol",
+        "@solidstate/contracts/access/ownable/OwnableStorage.sol",
+        "../storage/GovernanceStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GovernanceTokenInit"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/ontap/governance/init/GovernanceInit.sol": {
+      "lastModificationDate": 1655270821489,
+      "contentHash": "23adb61a48400f09db85250433675f18",
+      "sourceName": "contracts/_library/ontap/governance/init/GovernanceInit.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/access/ownable/OwnableStorage.sol",
+        "../storage/GovernanceStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GovernanceInit"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/@solidstate/contracts/access/ownable/SafeOwnable.sol": {
+      "lastModificationDate": 1655270842026,
+      "contentHash": "9279d3a3076b881471deb0a39b707833",
+      "sourceName": "@solidstate/contracts/access/ownable/SafeOwnable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Ownable.sol",
+        "./ISafeOwnable.sol",
+        "./OwnableInternal.sol",
+        "./SafeOwnableInternal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeOwnable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/solidstate/Ownership.sol": {
+      "lastModificationDate": 1655270821492,
+      "contentHash": "30a7fce46e83cd853d12ed30b9e39549",
+      "sourceName": "contracts/_library/solidstate/Ownership.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/access/ownable/SafeOwnable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownership"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/solidstate/Erc165.sol": {
+      "lastModificationDate": 1655270821492,
+      "contentHash": "767af2ff517f6f385f892b7d3fd29587",
+      "sourceName": "contracts/_library/solidstate/Erc165.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Erc165"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/facets/treasury/TreasuryDefaultCallbackHandlerFacet.sol": {
+      "lastModificationDate": 1655270821476,
+      "contentHash": "6b5bd64c5a16fd4ae1fa03c82e1e4b2e",
+      "sourceName": "contracts/_library/habitat/facets/treasury/TreasuryDefaultCallbackHandlerFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/treasury/tokens/ERC1155TokenReceiver.sol",
+        "../../interfaces/treasury/tokens/ERC721TokenReceiver.sol",
+        "../../interfaces/treasury/tokens/ERC777TokensRecipient.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TreasuryDefaultCallbackHandlerFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/interfaces/treasury/tokens/ERC1155TokenReceiver.sol": {
+      "lastModificationDate": 1655270821486,
+      "contentHash": "b193999e29685c271f100ff6978bd167",
+      "sourceName": "contracts/_library/habitat/interfaces/treasury/tokens/ERC1155TokenReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "ERC1155TokenReceiver"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/interfaces/treasury/tokens/ERC721TokenReceiver.sol": {
+      "lastModificationDate": 1655270821486,
+      "contentHash": "3f0817284e32da6458fa3c9c9da3350d",
+      "sourceName": "contracts/_library/habitat/interfaces/treasury/tokens/ERC721TokenReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "ERC721TokenReceiver"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/interfaces/treasury/tokens/ERC777TokensRecipient.sol": {
+      "lastModificationDate": 1655270821486,
+      "contentHash": "9d253b41c7bc996cec48c70965789ac6",
+      "sourceName": "contracts/_library/habitat/interfaces/treasury/tokens/ERC777TokensRecipient.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "ERC777TokensRecipient"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/habitat/MyTokenLens.sol": {
+      "lastModificationDate": 1655270821472,
+      "contentHash": "44e84406fce199d7f32d455accbe0d4d",
+      "sourceName": "contracts/_library/habitat/MyTokenLens.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MyTokenLens"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/ontap/governance/logic/Token.sol": {
+      "lastModificationDate": 1655270821490,
+      "contentHash": "422b29954dc95ec502e5f29eade2247a",
+      "sourceName": "contracts/_library/ontap/governance/logic/Token.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": []
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/ontap/greeter/Greeter.sol": {
+      "lastModificationDate": 1655270821488,
+      "contentHash": "a770bb5893aad8204e05c541df3120e5",
+      "sourceName": "contracts/_library/ontap/greeter/Greeter.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./GreeterStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Greeter"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/contracts/_library/ontap/greeter/GreeterStorage.sol": {
+      "lastModificationDate": 1655270821489,
+      "contentHash": "2124edda306b6d1bcfdf929f6bbbef76",
+      "sourceName": "contracts/_library/ontap/greeter/GreeterStorage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "GreeterStorage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/ontap-gc/node_modules/hardhat-diamond-abi/dist/contract.sol": {
+      "lastModificationDate": 1655999212961,
+      "contentHash": "ee43007b1b8cec63c1fc90acfa2a0784",
+      "sourceName": "hardhat-diamond-abi/HardhatDiamondABI.sol",
+      "solcConfig": {
+        "version": "X.X.X",
+        "settings": {}
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": [
+        "Ontap"
+      ]
+    }
+  }
+}
