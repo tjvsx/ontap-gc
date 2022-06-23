@@ -1,0 +1,41 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* splitview */
+.divider-hitbox {
+  cursor: col-resize;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.divider {
+  height: 100%;
+  border: 1px solid #808080;
+}
+
+.rightPane {
+  flex: 1;
+}
+.splitView {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}

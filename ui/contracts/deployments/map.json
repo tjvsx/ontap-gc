@@ -1,0 +1,25 @@
+{
+  "1337": {
+    "OnTap": [
+      "0x71E02441209d3dd9Ed064A4E4EafAf90D0263088"
+    ],
+    "Readable": [
+      "0x32e02F2934824ec085298E2B4e0e07935Ec6DaeC"
+    ],
+    "Ownership": [
+      "0xfeaD3d6e2fA0f92551375fa985006ffc6ac07E18"
+    ],
+    "Erc165": [
+      "0x6082Ac385d4c63be87d5146b3c43E5E826A7341C"
+    ],
+    "Writable": [
+      "0x8B2Eb2402A3Aa9c3E9fE54A61e3E3fA254F4eD66"
+    ],
+    "Git": [
+      "0xCC4D016aB77E28653bdce1098077bE5923077980"
+    ],
+    "OnTapInit": [
+      "0xC4bC1f775dB36c07b0bC506cbB83fCe12E182053"
+    ]
+  }
+}
